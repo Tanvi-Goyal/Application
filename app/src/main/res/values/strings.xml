@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="column_chart">Column Chart</string>
+    <string name="line_chart">Line Chart</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="venn_diagram">Venn Diagram</string>
+    <string name="yearly">Yearly</string>
+    <string name="monthly">Monthly</string>
+    <string name="weekly">Weekly</string>
+    <string name="_86">86%</string>
+    <string name="_11">11%</string>
+    <string name="paas_accounts_using_smart_tagging">% PAAS accounts using smart tagging</string>
+    <string name="_54">54%</string>
+    <string name="_5">5%</string>
+    <string name="_2_483">2,483</string>
+    <string name="_64">64</string>
+    <string name="no_of_questions_live_through_smart_tagging">No. of questions live through smart tagging</string>
+</resources>

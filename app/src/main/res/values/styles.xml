@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="indicatorFastScrollerStyle">@style/Widget.FastScrollSample.FastScroller</item>
+        <item name="indicatorFastScrollerThumbStyle">@style/Widget.FastScrollSample.FastScrollerThumb</item>
+    </style>
+
+
+    <style name="Widget.FastScrollSample.FastScroller" parent="Widget.IndicatorFastScroll.FastScroller">
+        <item name="iconColor">@color/pressed_selector</item>
+        <item name="android:textColor">@color/pressed_selector</item>
+    </style>
+
+    <style name="Widget.FastScrollSample.FastScroller.Floating">
+        <item name="iconColor">?colorAccent</item>
+        <item name="android:textColor">?colorAccent</item>
+        <item name="android:background">@drawable/fastscroller_floating_background</item>
+        <item name="android:elevation" tools:targetApi="lollipop">2dp</item>
+    </style>
+
+    <style name="Widget.FastScrollSample.FastScrollerThumb" parent="Widget.IndicatorFastScroll.FastScrollerThumb" />
+
+    <style name="Widget.FastScrollSample.FastScrollerThumb.Colorful">
+        <item name="thumbColor">?colorAccent</item>
+    </style>
+
+    <style name="smartTagging">
+        <item name="android:fontFamily">Montserrat-Bold</item>
+        <item name="android:textColor">#FF212121</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingMultiplier">1.33</item>
+    </style>
+
+    <style name="weekly">
+        <item name="android:fontFamily">Montserrat-SemiBold</item>
+        <item name="android:textColor">#FF0074C8</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingMultiplier">2</item>
+    </style>
+
+    <style name="monthly">
+        <item name="android:fontFamily">Montserrat-Medium</item>
+        <item name="android:textColor">#FF6B747E</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingMultiplier">2</item>
+    </style>
+
+    <style name="yearly">
+        <item name="android:fontFamily">Montserrat-Medium</item>
+        <item name="android:textColor">#FF6B747E</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingMultiplier">2</item>
+    </style>
+
+    <!--<style name="2483">-->
+        <!--<item name="android:fontFamily">Montserrat-Bold</item>-->
+        <!--<item name="android:textColor">#FF212121</item>-->
+        <!--<item name="android:textSize">18sp</item>-->
+        <!--<item name="android:lineSpacingMultiplier">1.33</item>-->
+    <!--</style>-->
+</resources>

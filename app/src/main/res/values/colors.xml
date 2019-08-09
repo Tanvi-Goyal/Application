@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightBlue">#C7E1EC</color>
+    <color name="middleBlue">#218CBD</color>
+    <color name="darkBlue">#1D78C0</color>
+    <color name="blue">#3264E4</color>
+    <color name="color_unselected">#FF6B747E</color>
+    <color name="color_selected">#FF0074C8</color>
+    <!--android:startColor="#C7E1EC"-->
+    <!--android:centerColor="#2EB3F0"-->
+    <!--android:endColor="#5174E0"-->
+
+</resources>
